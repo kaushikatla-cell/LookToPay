@@ -11,7 +11,7 @@ app = Flask(__name__)
 RPC = "https://eth.llamarpc.com"
 w3 = Web3(Web3.HTTPProvider(RPC))
 
-private_key = "55d253c81b9da6022152a0c1683c4d5b65a8db87f0b2abf41e961692c1a42022"
+private_key = ""
 account = w3.eth.account.from_key(private_key)
 
 status = "Scanning for QR codes..."
